@@ -1,4 +1,4 @@
-# PhotoSearch
+# Photo Search
 Searches photos and images from Flickr.
 App lets you save original high quality images and lets you save images as wallpaper.
 App lets you zoom and move around pictures.
