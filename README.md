@@ -5,4 +5,4 @@ App lets you zoom and move around pictures.
 
 ## Installation
 
-You have to have a account or register Flickr and get api key. Replace your API key with API_KEY string.
+You have to have an account or need to register on Flickr and get API key to use. Replace your API key with API_KEY string.
