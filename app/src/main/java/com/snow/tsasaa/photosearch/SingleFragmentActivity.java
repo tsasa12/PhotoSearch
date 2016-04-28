@@ -1,4 +1,4 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

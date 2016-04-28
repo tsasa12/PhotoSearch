@@ -1,4 +1,4 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,10 +16,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -180,10 +178,10 @@ public class PhotoGalleryFragment extends Fragment {
             @Override
             public boolean onQueryTextChange(String s) {
                 //Log.d(TAG, "QueryTextSubmit: " + s);
-                QueryPreferences.setStoredQuery(getActivity(), s);
-                updateItems();
+                //QueryPreferences.setStoredQuery(getActivity(), s);
+                //updateItems();
 
-                return true;
+                return false;
             }
 
             @Override

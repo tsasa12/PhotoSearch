@@ -1,4 +1,4 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import org.junit.Test;
 

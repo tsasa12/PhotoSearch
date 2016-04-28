@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.addon.tsasaa.photogallerysearch.DetailView">
+    android:background="@drawable/background"
+    tools:context="com.snow.tsasaa.photosearch.DetailView">
 
     <ImageView
         android:id="@+id/detailImageID"

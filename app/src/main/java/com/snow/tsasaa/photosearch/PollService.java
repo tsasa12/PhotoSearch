@@ -1,9 +1,8 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +11,6 @@ import android.net.ConnectivityManager;
 import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
-import android.util.Log;
 
 import java.util.List;
 
@@ -51,9 +49,9 @@ public class PollService extends IntentService {
 
         String resultId = items.get(0).getId(); // new result ID here
         if (resultId.equals(lastResultId)) {
-            Log.i(TAG, "Got an old result: " + resultId);
+            //Log.i(TAG, "Got an old result: " + resultId);
         } else {
-            Log.i(TAG, "Got a new result: " + resultId);
+            //Log.i(TAG, "Got a new result: " + resultId);
             ////////////////////// Notification //////////////////////////////////
 
             Resources resources = getResources();

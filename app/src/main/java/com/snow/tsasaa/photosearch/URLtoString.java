@@ -1,8 +1,7 @@
-package com.addon.tsasaa.photogallerysearch;
+package com.snow.tsasaa.photosearch;
 
 import android.net.Uri;
 import android.util.Log;
-import android.widget.Gallery;
 // key: 31a593638a4d34109a4e532eb371d42f secret: 47ca4d7f970a0a3c
 // https://api.flickr.com/services/?method=flickr.photos.getRecent&api_key=xxx&format=json&nojsoncallback=1
 // https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=31a593638a4d34109a4e532eb371d42f&format=json&nojsoncallback=1
@@ -39,7 +38,7 @@ public class URLtoString {
             .appendQueryParameter("format", "json")
             .appendQueryParameter("nojsoncallback", "1")
             .appendQueryParameter("extras", urlLarge)                    // small version of the picture
-            //.appendQueryParameter("text", "sexy asian")
+            //.appendQueryParameter("text", "humanoid robot")
             .build();
 
     public byte[] getUrlBytes(String urlArg) throws IOException { // fetches raw data from a URL -> array of bytes
@@ -66,7 +65,7 @@ public class URLtoString {
         }
     }
 
-    public String getUrlString(String url) throws IOException{ // converts the result from getUrlBytes to a String
+    public String getUrlString(String url) throws IOException { // converts the result from getUrlBytes to a String
         //String str = new String(getUrlBytes(url));
         return new String(getUrlBytes(url));
     }

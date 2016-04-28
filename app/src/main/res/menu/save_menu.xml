@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/saveID"
+          android:title="@string/saveString"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/wallID"
+          android:title="@string/wallString"
+          app:showAsAction="never"/>
+
+</menu>
